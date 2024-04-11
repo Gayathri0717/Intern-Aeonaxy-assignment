@@ -1,0 +1,129 @@
+
+
+.cont3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .dibbble{
+    display: flex;
+    font-style: italic;
+    font-size: larger;
+    color: #d34fbd;
+    align-items: flex-start;
+    /* margin-left: 35px; */
+    justify-content: flex-start;
+    width: 97%;
+  }
+  .back-icon {
+    color: black;
+    font-size: 24px;
+    margin-top: 32px;
+    margin-right: 11px;
+  }
+  
+  .center-content {
+    margin-top: 4px;
+    text-align: center;
+    margin-bottom: 49px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;;
+  }
+  .tick-icon {
+    color:  #d34fbd; /* Color of the tick icon */
+  }
+  
+  .selected {
+    border: 2px solid  #d34fbd; /* Border style for selected image box */
+  }
+  
+     .sub {
+    margin-bottom: 10px;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    
+  }
+  
+  .image-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+  }
+  
+  .image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .caption {
+    font-weight: bold;
+  }
+  .multiple{
+    font-weight: bold;
+  }
+  .description {
+    font-size: 14px;
+    width: 63%;
+    font-weight: bold;
+  }
+  .finish{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px 20px;
+    background-color: #d34fbd;
+    color: #fff;
+    width: 18%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: -12px;
+    margin-bottom: 20px;
+    /* margin-left: 200px; */
+  }
+  .sub{
+    margin-top: -11px;
+  }
+  @media screen and (max-width: 768px) {
+    .cont3 {
+      padding: 20px; /* Add padding for better spacing */
+    }
+  
+    .image-section {
+      flex-wrap: wrap; /* Allow images to wrap to the next line */
+      width: 100%; /* Occupy full width */
+    }
+  .top-left-section h2{
+    margin-top: 165px;
+  }
+    .image-box {
+      width: 45%; /* Adjust width to fit two images per row */
+      margin: 10px; /* Add margin for spacing between images */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .center-content {
+      margin-top: 20px; /* Adjust top margin for smaller screens */
+      margin-bottom: 20px; /* Adjust bottom margin for smaller screens */
+    }
+  
+    .finish {
+      width: 60%; /* Adjust button width for smaller screens */
+    }
+  
+    .description {
+      width: 80%; /* Adjust description width for smaller screens */
+    }
+  }

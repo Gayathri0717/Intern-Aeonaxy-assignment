@@ -1,0 +1,130 @@
+.return{
+  font-size: small;
+    margin-left: 18px;
+    font-weight: lighter;
+}
+
+.cont2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  }
+  
+  .top-left-section {
+    width: 100%;
+    padding: 20px;
+    text-align: center; 
+  }
+  .top-left-section h2{
+    display: flex;
+    font-style: italic;
+    font-size: x-large;
+    color:#d34fbd;
+  }
+  .welcome, .describe {
+    margin-bottom: 10px; 
+  }
+  .centered-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 340px;
+    margin-bottom: 55px;
+  }
+  
+  .avatar-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .header {
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  .back-icon {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .back-icon .icon {
+    font-size: 20px;
+  }
+  
+  .back-icon:hover .icon {
+    color: blue;
+  }
+  .icon {
+    margin-right: 15px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+  .header h2 {
+    margin-top: 31px;
+    font-size: 24px;
+    color:  #d34fbd;
+  }
+  .avatar {
+    width: 151px;
+    height: 151px;
+    border-radius: 50%;
+    background-color: #f5eaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+  .add{
+    margin-top: 45px;
+  }
+  
+  .camera-icon {
+    font-size: 24px;
+  }
+  
+  .image-text {
+    margin-left: 34px;
+  }
+  .welcome{
+    font-size: xx-large;
+    margin-bottom: -5px;
+    
+  }
+  .describe{
+    font-size: large;
+  }
+  .img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .next{
+    padding: 10px 20px;
+    background-color: #d34fbd;
+    color: #fff;
+    width: 28%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 38px;
+  }
+  
+@media screen and (max-width: 768px) {
+  .centered-text {
+    margin-left: 0; 
+    align-items: center; 
+  }
+
+  .next {
+    width: 60%; 
+  }
+  .top-left-section h2{
+    margin-top: 34px;
+    margin-left: 52px;
+  }
+}
